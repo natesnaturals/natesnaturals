@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nate's Naturals</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1609943242034-f0b7e3c31e76?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #a8e6cf;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p.subtitle {
+      font-size: 1.25rem;
+      margin-top: 0;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .product {
+      background-color: rgba(255, 255, 255, 0.95);
+      color: #222;
+      padding: 2rem;
+      border-radius: 15px;
+      margin-top: 2rem;
+      box-shadow: 0 6px 30px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    .product h2 {
+      font-size: 1.75rem;
+    }
+
+    .product p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .deal {
+      background: #c8f7c5;
+      color: #2e7d32;
+      padding: 0.75rem;
+      border-radius: 10px;
+      font-weight: bold;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+
+    .button {
+      margin-top: 1.5rem;
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+
+    .button:hover {
+      background-color: #388e3c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+  </nav>
+
+  <header id="home">
+    <h1>Nate's Naturals 🌿</h1>
+    <p class="subtitle">Healing Through Nature · Beauty Through Balance</p>
+  </header>
+
+  <section>
+    <div class="product">
+      <h2>🌱 Rosemary & Avocado Hair Growth Spray</h2>
+      <p>
+        A soothing, nutrient-rich blend of rosemary extract, cold-pressed avocado oil, and distilled water. 
+        This natural formula promotes healthy hair growth, revitalizes the scalp, and delivers a refreshing botanical experience.
+      </p>
+      <div class="deal">🌟 Buy 1, Get the 2nd 15% Off!</div>
+      <a href="https://buy.stripe.com/test_dummycheckoutlink" class="button">Add to Cart</a>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2 style="text-align: center;">Our Products</h2>
+    <div class="product">
+      <h2>Rosemary & Avocado Hair Growth Spray</h2>
+      <p>
+        Powered by plants. Designed for healing. Carefully formulated to support your natural hair journey.
+      </p>
+      <a href="https://buy.stripe.com/test_dummycheckoutlink" class="button">Add to Cart</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 style="text-align: center;">About Us</h2>
+    <div class="product">
+      <p>
+        At Nate’s Naturals, we believe true wellness begins with nature. 
+        Our mission is to harness the healing power of plants to help you restore balance, beauty, and vitality. 
+        Every product we craft is designed to support your body’s natural ability to heal and stay alkaline — without harsh chemicals or artificial fillers.
+      </p>
+      <p>
+        Proudly based in Canada 🍁, we use ethically sourced ingredients and eco-conscious packaging to stay aligned with our planet and your health.
+        Join us in the journey back to natural healing.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Nate's Naturals · Made with ❤️ in Canada
+  </footer>
+
+</body>
+</html>
 
